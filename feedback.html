@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+	<meta charset="utf-8"/>
+	<title>Feedback</title>
+
+
+<style>
+table, td, th {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 60%;
+    text-align: center;
+
+}
+
+td {
+    height: 50px;
+    vertical-align: bottom;
+}
+</style>
+
+</head>
+<body>
+	<h1 style="text-align: center">Feedback</h1>
+	<hr>
+	
+	<br><br>
+
+	<b>Employee's Name</b>
+	<br>
+	<form name="input" action="get">
+		<input type="text" name="Firstname">
+		<input type="text" name="Lastname"><br/> 
+		<pre> Firstname                  Lastname </pre>
+		<br>
+
+		<b>Employee Hire Date</b> <br>
+		<select name="Date"> 
+				<option value="0">_</option>
+				<option value="1">1 </option>
+				<option value="2">2 </option>
+				<option value="3">3 </option>
+				<option value="4">4 </option>
+				<option value="5">5 </option>
+				<option value="6">6 </option>
+				<option value="7">7 </option>
+				<option value="8">8 </option>
+				<option value="9">9 </option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+				<option value="13">13</option>
+				<option value="14">14</option>
+				<option value="15">15</option>
+				<option value="16">16</option>
+				<option value="17">17</option>
+				<option value="18">18</option>
+				<option value="19">19</option>
+				<option value="20">20</option>
+				<option value="21">21</option>
+				<option value="22">22</option>
+				<option value="23">23</option>
+				<option value="24">24</option>
+				<option value="25">25</option>
+				<option value="26">26</option>
+				<option value="27">27</option>
+				<option value="28">28</option>
+				<option value="29">29</option>
+				<option value="30">30</option>
+
+
+		</select>
+		<select name="Month"> 
+				<option value="0">_</option>
+				<option value="1">1</option>
+				<option value="2">2</option>
+				<option value="3">3</option>
+				<option value="4">4</option>
+				<option value="5">5</option>
+				<option value="6">6</option>
+				<option value="7">7</option>
+				<option value="8">8</option>
+				<option value="9">9</option>
+				<option value="10">10</option>
+				<option value="11">11</option>
+				<option value="12">12</option>
+		</select>
+		<select name="Year"> 
+				<option value="0">_</option>
+				<option value="2015">2015</option>
+				<option value="2016">2016</option>
+				<option value="2017">2017</option>
+				<option value="2018">2018</option>
+				<option value="2019">2019</option>
+				<option value="2020">2020</option>
+		</select>
+		<br><br>
+
+		<b>Employee's Title</b>
+		<br>
+		<input type="text" name="title" value="">
+		<br><br>
+
+		<b>Employee's Depertment</b>
+		<br>
+		<select name="Depertment"> 
+				<option value="Marketing">Marketing</option>
+				<option value="HR">HR</option>
+				<option value="Officer">Officer</option>
+				<option value="Clerk">Clerk</option>
+		</select>
+
+		<br><br>
+
+		<b>Performance Evaluation</b>
+
+		<table>
+			<tr>
+				<th></th>
+				<th>Very Good</th>
+				<th>Good</th>
+				<th> Fair</th>
+				<th> Poor</th>
+				<th> Very Poor</th>
+			</tr>
+
+			<tr>
+				<td>Attendence</td>
+				<td><input type="radio" name="check" ></td>
+				<td><input type="radio" name="check" ></td>
+				<td><input type="radio" name="check" ></td>
+				<td><input type="radio" name="check" ></td>
+				<td><input type="radio" name="check" ></td>
+
+
+			</tr>
+			<tr>
+				<td>Quality of work</td>
+				<td><input type="radio" name="check1" ></td>
+				<td><input type="radio" name="check1" ></td>
+				<td><input type="radio" name="check1" ></td>
+				<td><input type="radio" name="check1" ></td>
+				<td><input type="radio" name="check1" ></td>
+
+
+			</tr>
+			<tr>
+				<td>Quantity of work</td>
+				<td><input type="radio" name="check2" ></td>
+				<td><input type="radio" name="check2" ></td>
+				<td><input type="radio" name="check2" ></td>
+				<td><input type="radio" name="check2" ></td>
+				<td><input type="radio" name="check2" ></td>
+
+
+			</tr>
+			<tr>
+				<td>Attitude</td>
+				<td><input type="radio" name="check3" ></td>
+				<td><input type="radio" name="check3" ></td>
+				<td><input type="radio" name="check3" ></td>
+				<td><input type="radio" name="check3" ></td>
+				<td><input type="radio" name="check3" ></td>
+
+
+			</tr>
+			<tr>
+				<td>Dependability</td>
+				<td><input type="radio" name="check4" ></td>
+				<td><input type="radio" name="check4" ></td>
+				<td><input type="radio" name="check4" ></td>
+				<td><input type="radio" name="check4" ></td>
+				<td><input type="radio" name="check4" ></td>
+
+
+			</tr>
+			<tr>
+				<td>Work ethic</td>
+				<td><input type="radio" name="check5" ></td>
+				<td><input type="radio" name="check5" ></td>
+				<td><input type="radio" name="check5" ></td>
+				<td><input type="radio" name="check5" ></td>
+				<td><input type="radio" name="check5" ></td>
+
+
+			</tr>
+			
+
+
+
+
+		</table>
+
+		<h4>Overall , I would rank this emoloyee's performance as:</h4>
+		<input type="radio" name="genger" value="Very Good"> Very Good
+		<input type="radio" name="genger" value="Good">Good
+		<input type="radio" name="genger" value="Fair">Fair
+		<input type="radio" name="genger" value="Poor">Poor
+		<input type="radio" name="genger" value="Very Poor">Very Poor
+		<br>
+		<p> Please go into more details on why you chose this ranking.<br>
+
+		<textarea rows="8" cols="70">
+		</textarea><br><br>
+
+		<b>Supervisors Name</b><br>
+
+		<input type="text" name="text1" value="">
+
+		<input type="text" name="text2" value=""><br>
+		<pre>Firstname                Lastname </pre>
+		<br>
+
+		<br>
+	 	<b>Supervisors Signature</b>
+	 	<br>	
+		<textarea rows="6" cols="80">
+
+
+		
+
+		__________________________________________________
+		</textarea><br>
+
+		
+		<pre>Use your mouse of finger to draw your signature above			<input style="text-align: right;" type="reset" value="Clear"></pre>
+
+	</form>
+
+</body>
